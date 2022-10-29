@@ -1,0 +1,32 @@
+.container {
+    border: thick solid purple;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+}
+
+.item1 {
+    background-color: pink;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.item2 {
+    background-color: lightblue;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.item3 {
+    background-color: gray;   
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+

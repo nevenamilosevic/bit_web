@@ -1,0 +1,54 @@
+
+body p:first-child {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    max-width: 300;
+    max-height: 200;
+    overflow-y: hidden;
+}
+
+p {
+    background-color: red;
+    width: 600px;
+    height: 100px ;
+    overflow-y: auto;
+}
+
+.p {
+    background-color: yellow;
+    border-width: thick;
+    border-width: 5px 5px;
+    border-style: dashed;
+    border-color: red;
+    padding: 0 0px;
+    margin-right: 20px;
+    width: 300px;
+    display: inline;
+}
+
+.ppp {
+    background-color: yellow;
+    border-style:solid; 
+    border-color: green; 
+    
+    width: 400px;
+    text-align: center;
+    padding: 0 0px;
+    margin-right: 20px;
+    visibility: hidden;
+}
+
+h1 {
+    width: 960px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    color:brown;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}

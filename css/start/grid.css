@@ -1,0 +1,40 @@
+.container {
+    
+    
+    grid-template-columns: 110px 180px 110px;
+    grid-auto-rows: 110px;
+    display:grid;
+}
+
+
+
+
+
+.item {
+    border: 2px solid yellow;
+    gap: 1px;
+    
+}
+
+.item1 {
+    background-color: lightblue;
+    grid-column: 1/4;
+}
+
+.item2 {
+    background-color: lightcoral;
+}
+
+.item3 {
+    background-color: lightgreen;
+}
+
+.item4 {
+    background-color: lightcoral;
+}
+
+.item5 {
+    background-color: orange;
+    grid-column: -4 / -1;
+}
+

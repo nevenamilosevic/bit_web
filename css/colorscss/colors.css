@@ -1,0 +1,25 @@
+body {
+    font-size: 32px;
+}
+
+#first {
+    color: DarkTurquoise;
+    background-color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#second {
+    color: rgb(0, 206, 209);
+    background-color: yellow;
+    opacity: 0.5;
+    font-family: oblique;
+}
+
+#third {
+    color: #00ced1;
+    background: rgba(255, 0, 0, 0.5);
+}
+
+
+
+

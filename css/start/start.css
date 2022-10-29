@@ -1,0 +1,59 @@
+.container {
+    border: thick solid hotpink;
+    min-height: 300px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    justify-content: space-around;
+    
+    background-color: #7300ff;
+
+}
+
+.item1 {
+    background: yellow;
+    border: thin solid rebeccapurple;
+    padding: 30px;
+    color:white;
+    
+}
+.item2 {
+    background: orange;
+    border: thin solid rebeccapurple;
+    padding: 30px;
+    color:white;
+}
+.item4 {
+    background: gainsboro;
+    border: thin solid rebeccapurple;
+    padding: 30px;
+    color:white;
+}
+.item5 {
+    background: gray;
+    border: thin solid rebeccapurple;
+    padding: 30px;
+    color:white;
+}
+
+
+
+.item3 {
+    background: red;
+    border: thin solid rebeccapurple;
+    padding: 40px;
+    color:white;
+    flex-direction: column;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
