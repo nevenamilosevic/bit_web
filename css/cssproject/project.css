@@ -1,0 +1,470 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+ 
+    
+}
+
+
+#menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+
+#sve {
+
+    background: rgb(0, 0, 0, 0.8);
+
+
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.logo {
+    font-size: 28px;
+    margin: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo > span {
+    color: orange;
+    border-top: 2px solid white;
+    border-left: 2px solid white ;
+    border-bottom: 2px solid white;
+    padding-left: 5px;
+    margin-right: 10px; 
+}
+
+
+
+
+
+
+.ullist {
+    margin: 15px;
+}
+
+
+.ulli {
+    padding: 20px 15px;
+    display: inline;
+    list-style-type: none;
+}
+
+
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    
+    
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.read-me {
+    background-color: rgb(68, 126, 196);
+    height: 35px;
+    width: 100px;
+    border-radius: 50px;
+
+    border: none;
+    color: white;
+    
+}
+
+
+
+
+header {
+    width: 1052px;
+    height: 750px;
+    background-image: url(./images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+    margin: 0 auto;
+}
+
+
+#who-we-are {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    margin-top: -210px;
+    background-color: white;
+}
+
+.break-lines {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.break-line {
+    height: 2px;
+    width: 134px;
+    border-top: 2px solid black;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.break-square {
+    height: 15px;
+    width: 15px;
+    border: 2px solid black;
+    margin: 0 10px;
+
+    -ms-transform: rotate(50deg); 
+    transform: rotate(50deg);
+}
+
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 26px;
+    
+}
+
+
+
+
+
+
+
+#container {
+    width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+
+   
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    
+    background-color: white;
+    
+    margin-left: 50px;
+    
+}
+
+.p1 {
+    color: black;
+    
+    
+    
+}
+
+
+.p2 {
+    margin: 10px;
+    
+    margin-left: 30px;
+}
+
+.p3 {
+    color: black;
+    
+}
+
+.ul-arrow {
+    list-style-image: url(./images/arrow_bullet.png);
+   /* ZASTO NECE OVOOOOOOO */
+}
+
+.li-arrow {
+    display: flex;
+    justify-content: left;
+    
+    
+    padding-bottom: 10px;
+    margin-top: 5px;
+    
+}
+
+
+
+#what-people-says {
+    width: 85%;
+    margin: 0px auto;
+    
+}
+
+
+
+
+
+.plavi {
+    background-color: rgba(19, 183, 219, 0.451);
+    margin: 10px;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    height: 130px;
+
+}
+
+.slikatekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.box-images {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 8px white double;
+}
+
+.zvezdice {
+    text-align: right;
+}
+
+h1 {
+    color:rgba(18, 174, 226, 0.966);
+    font-size: 20px;
+}
+
+
+
+.get-in-touch {
+    width: 85%;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.squares{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#house-images {
+    height: 170px;
+    padding-left: 60px
+}
+
+#contact-number {
+    font-size: 15px;
+    
+}
+
+.contact {
+    font-size: 10px;
+}
+
+.square1 {
+    width: 25%;
+    height: 180px;
+    text-align: center;
+    background-color: rgb(59, 221, 154);
+}
+
+.square2 {
+    width: 25%;
+    height: 180px;
+    text-align: center;
+    background-color:#FF4C81;
+}
+
+.square3 {
+    width: 25%;
+    height: 180px;
+    text-align: center;
+    background-color: rgb(55, 109, 228);
+}
+
+.square4 {
+    width: 25%;
+    height: 180px;
+    text-align: center;
+    background-color: #82C3F5 ;
+}
+
+.contact {
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.paragraph {
+    color: white;
+    line-height: 10px;
+}
+
+#Street-address {
+    margin-right: 35px;
+    margin-left: 35px
+    
+}
+
+.square-icon {
+    padding-left: 16px;
+    width: 15px;
+    height: 15px;
+    background-image: none;  /* ?????? */
+}
+
+#mail-contact a {
+    color: white;
+}
+
+#maps {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form {
+    width: 80%;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+}
+
+form {
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.input-box {
+    width: 234px;
+    height: 20px;
+    padding: 15px;
+    font-size: 15px;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#submit-button {
+    width: 90px;
+    height: 30px;
+    background-color: orange;
+    border-style: none;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    opacity: 0.9;
+
+    height: 200px;
+}
+
+#footer-section {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#footer-list {
+    display: flex;
+    gap: 10px;
+
+    
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.fli {
+    list-style-type: none;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: white;
+    
+    
+    gap: 10px;
+
+
+    
+}
+
+
+#footer-paragraph {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

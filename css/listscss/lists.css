@@ -1,3 +1,20 @@
 #first {
     list-style-type: circle;
 }
+
+#second {
+    list-style-type: square;
+}
+
+#third {
+    list-style-type: upper-alpha;
+}
+
+#fourth {
+    list-style-type: roman;
+}
+
+
+ul#image-marker {
+    list-style-image: url(https://cdn2.emmezeta.rs/media/catalog/product/cache/01cb2cb658d395381faf29e7336ee183/6/6/661295-slika-human-faces-90x60cm_1.jpg);
+}
