@@ -14,3 +14,7 @@
     background-color: aquamarine;
     text-transform: uppercase;
 }
+
+.borderColor {
+    border: 5px solid red;
+}

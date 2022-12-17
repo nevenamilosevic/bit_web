@@ -83,3 +83,55 @@ var changeText = function (string) {
 
 
 
+//innerHTML
+
+
+function createDropdown () {
+  var divReplace = document.querySelector('div').innerHTML = "<select name = 'drop' id='drop1'><option value='option 1'>1st option</option><option value='option 2'>2nd option</option><option value='option 3 '>3rd option</option><option value = 'option 4'>4th option</option></select>";    
+}
+
+createDropdown()
+
+//DOM manipulation
+
+function createDropdown2 (arr) {
+  var selectNode = document.createElement("select");
+  var divNode = document.getElementById("wrapper");
+
+  console.log(divNode);
+  
+  selectNode.setAttribute("id", "drop");
+
+  for(var i = 0; i < arr.length; i++) {
+    var optionNode = document.createElement("option");
+    optionNode.textContent = arr[i];
+    selectNode.appendChild(optionNode);
+  }
+  
+  divNode.appendChild(selectNode);
+
+};
+
+createDropdown2(["5", "6", "7", "8"]);
+
+
+
+//Atributes
+
+
+
+function createForm(f){
+    var inputs = document.getElementsByTagName("input");
+
+    for (var i = 0; i < inputs.length; i++) {
+        if(inputs[i].hasAttribute("required") && inputs[i].   value.length === 0){
+          inputs[i].classList.add("borderColor");
+        } else {
+          inputs[i].classList.remove("borderColor")
+        }
+    }
+  return inputs;
+}
+
+
+
