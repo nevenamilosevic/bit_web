@@ -1,0 +1,16 @@
+.druga-lista {
+    background-color: aqua;
+}
+
+.li-background {
+    background-color: coral;
+} 
+
+.treca-lista {
+    background-color: blueviolet;
+}
+
+.active {
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
