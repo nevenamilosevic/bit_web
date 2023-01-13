@@ -1,0 +1,33 @@
+button {
+    background-color: red;
+    color: white;
+}
+
+.stil {
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.div1 {
+    background-color: darkblue;
+}
+
+.div1.nova-klasa {
+    background-color: green;
+}
+
+/* .div2 {
+    background-color: green;
+}
+
+.div2.nova-klasa2 {
+    background-color: darkblue;
+} */
+
+
+#sent-messages {
+    width: 500 px;
+    background-color:cornflowerblue;
+}

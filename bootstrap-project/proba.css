@@ -1,0 +1,71 @@
+.d-flex {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 50%;
+}
+
+.text-center {
+  background-color: #18bc9c;
+}
+
+.rounded {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.my-3, .mt-3 {
+  color: white;
+}
+
+.novo {
+  background-color: white;
+}
+
+.btn-lg {
+  font-size: 15px;
+}
+
+#contactForm {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn-success {
+  background-color: #18bc9c;
+}
+
+#footer {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.mb-lg-5 {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.color-input-text {
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.svg-inline--fa, divider-custom-line {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  color: white;
+}
+
+.fa-star-novo {
+  color: black;
+}
+
+.container-fluid {
+  background-color: black;
+}/*# sourceMappingURL=proba.css.map */
